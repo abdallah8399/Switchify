@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/editProfile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+    <EditText
+        android:id="@+id/editProfile_Name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editProfile_image"
+        android:background="@drawable/input_design"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_grey"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editProfile_CurrentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Current Password"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editProfile_Name"
+        android:background="@drawable/input_design"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_grey"
+        android:layout_margin="20dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editProfile_newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Enter a new password if you want to change it"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editProfile_CurrentPassword"
+        android:background="@drawable/input_design"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_grey"
+        android:layout_margin="20dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/editProfile_btnSave"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_black_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editProfile_newPassword"
+        android:text="Save" />
+</RelativeLayout>

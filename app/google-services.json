@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873229657726",
+    "firebase_url": "https://softwareproject1-c9066.firebaseio.com",
+    "project_id": "softwareproject1-c9066",
+    "storage_bucket": "softwareproject1-c9066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873229657726:android:fe7070acd951409f349a2f",
+        "android_client_info": {
+          "package_name": "com.wingy.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873229657726-h3598vp131qfl89b2un30hag0s4q1q2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHDfsNhQCQmSMT3t14HT7VNkX4w8AZ4aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873229657726-h3598vp131qfl89b2un30hag0s4q1q2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
